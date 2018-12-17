@@ -25,7 +25,7 @@ if __name__ == "__main__":
     print("x is 100, y is x", x is 100, y is x)
     print("id(x), id(100), id(y)", id(x), id(100), id(y))
     x = x - 1
-    print("x = x + 1")
+    print("x = x - 1")
     print("x is 100", x is 100)
     print("id(x), id(100), id(y)", id(x), id(100), id(y))
     print("id(100) remains the same...object 100 is immutable")
@@ -38,6 +38,6 @@ if __name__ == "__main__":
     list_1.pop()
     print("list_1 changed", list_1)
     print("list_1 is list_2", list_1 is list_2)
-    # note to harsh: control flow doesn't go back to #33 after #35; its just that the list_1 and list_2 point
+    # note to anurag: control flow doesn't go back to #33 after #35; its just that the list_1 and list_2 point
     # to the same list
 

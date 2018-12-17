@@ -52,4 +52,3 @@ if __name__ == "__main__":
     print("column 1 of A", A[0, :])
     # slicing works as expected in numpy arrays
     print(sys.path)
-

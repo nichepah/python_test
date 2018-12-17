@@ -28,6 +28,7 @@ def count_words(s, n):
         list_words_count.append((words, list_words.count(words)))
     list_words_distinct_count = list(set(list_words_count))
     # order of sorting is important
+    print(list_words_distinct_count)
     s1 = sorted(list_words_distinct_count, key=operator.itemgetter(0))  # alphabetical
     s2 = sorted(s1, key=operator.itemgetter(1), reverse=True)           # descending order of occurence
     top_n = s2[0:n]

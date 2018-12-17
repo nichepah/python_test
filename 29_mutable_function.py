@@ -1,11 +1,11 @@
-def function_1(list, my_string):
+def function_1(my_list, my_string):
     """ Appends my_string to list
 
-    :param list:
+    :param my_list:
     :param my_string:
     """
-    list.append(my_string)
-    print("function_1, id(l)", id(l))
+    my_list.append(my_string)
+    print("function_1, id(my_list)", id(my_list))
 
 
 def function_2(n, a):
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     In both functions pass the parent object.
     
     Mutables passed by ref, immutable passed by val\
-    Pay attention to prins from within the functions; in case of mutable id remains the same as in the callee.
+    Pay attention to prints from within the functions; in case of mutable id remains the same as in the callee.
     """
     l = list(['a', 'b', 'c'])
     print(l)

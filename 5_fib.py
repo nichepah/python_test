@@ -13,3 +13,4 @@ if __name__ == "__main__":
     x = int(input(" Please enter a number: "))
     print("fib(x): ")
     fib(x)
+    print(__name__)

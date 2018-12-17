@@ -2,7 +2,7 @@ import sys
 # imports askok.py
 # try without if __name__ == "__main__" in askok.py
 import askok
-# import sail.rbu.mti.whoami
+import sail.rbu.mti.whoami
 # import sail.rbu.mti.whoami as mt
 # from sail.rbu.rdcis import whoami
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     print(dir(fib))
     print(dir(sys))
     askok.ask_ok("is it ok(y/s)")
-    # sail.rbu.mti.whoami.whoami()
+    sail.rbu.mti.whoami.whoami()
     # mt.whoami()
     # whoami.whoami()
 

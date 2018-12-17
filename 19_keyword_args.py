@@ -1,6 +1,3 @@
-"""import fib"""
-
-
 def tour_plan(destination, head_count=4, mode='air', origin='Ranchi', hotel='makemytrip'):
     """Plan a tour using any mode of transport from origin to destination with
     a group of n people. You have option to book accommodation through makemytrip.
@@ -21,8 +18,8 @@ if __name__=='__main__':
     tour_plan("Kerala")
     # error
     #tour_plan()
-    #tour_plant(head_count=20, "kerala")
+    #tour_plan(head_count=20, "kerala")
     #tour_plan("Singapore", destination="Thailand")
     tour_plan("Thailand", head_count=10)
     tour_plan("Nepal", mode='car', hotel='airbnb', head_count=2)
-#   fib.fib(10)
+

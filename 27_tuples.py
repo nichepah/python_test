@@ -21,7 +21,3 @@ if __name__ == "__main__":
     x, y , z, n = a
     print(x, y, z, n)
 
-
-
-
-

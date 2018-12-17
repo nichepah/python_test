@@ -23,3 +23,5 @@ if __name__ == "__main__":
     print(my_stack)
     my_stack.append(70)
     print(my_stack)
+    push(my_stack, 100)
+    print(my_stack)
