@@ -75,4 +75,5 @@ network_yaml = network.to_yaml()
 with open("csi_training_handwritten.yaml", "w") as yaml_file:
     yaml_file.write(network_yaml)
 
-
+# training set: 3s 43us/step - loss: 0.0373 - acc: 0.9886
+# ('test_accuracy:', 0.981)

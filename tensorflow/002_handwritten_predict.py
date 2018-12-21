@@ -19,8 +19,9 @@ for i, test_image in enumerate(test_images):
     org_image = test_image
     # reshape the test image to [1x784] format so that our model understands
     test_image = test_image.reshape(1, 784)
-    prediction = model.predict_classes(test_image, verbose=1)
+    prediction = model.predict_classes(test_image, verbose=0)
     print("The digit is - {}".format(prediction[0]))
-    plt.subplot(220+i)
+    # subplot(rows, columns, index;
+    plt.subplot(220+i+1)
     plt.imshow(org_image, cmap=plt.get_cmap('gray'))
 plt.show()
