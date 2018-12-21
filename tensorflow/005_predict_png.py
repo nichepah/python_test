@@ -12,7 +12,7 @@ if __name__ == "__main__":
     """
     model = load_model('csi_training_handwritten.h5')
     # list of files
-    pic_files = sorted([f for f in glob.glob("pics/*_1.png")])
+    pic_files = sorted([f for f in glob.glob("pics/*.png")])
     for my_file in pic_files:
         my_img = Image.open(my_file).convert("L")
         my_img = my_img.resize((28, 28))
