@@ -5,7 +5,7 @@ def tour_plan(destination, head_count=4, mode='air', origin='Ranchi', hotel='mak
     air, default head count is 4, default accommodation is through makemytrip.
     1. Plan a trip to kerala, from ranchi, for 4, by air, on makemytrip
     2. Plan a trip to Thailand, from ranchi, for 10.
-    3. Plan a trip to Nepal, from ranchi, by car, for 2, through 'airbnb' instead of makemystrip.
+    3. Plan a trip to Nepal, from ranchi, by car, for 2, through 'airbnb' instead of makemytrip.
      """
     print("We will leave", origin, end='')
     print(" to", destination, end='')
