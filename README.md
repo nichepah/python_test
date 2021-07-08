@@ -1,2 +1,2 @@
 # python_test
-Introductory snippets for Python
+Introductory snippets on Python and Tensoflow
